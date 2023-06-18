@@ -1,0 +1,104 @@
+:root {
+
+  --table-bg-color-odd: rgb(243, 243, 243);
+  --table-bg-color-even: rgb(226, 226, 226);
+  --table-font-color-odd: black;
+  --table-font-color-even: black;
+  --table-header-bg-color: rgb(37, 37, 37);
+  --table-header-font-color: rgb(243, 243, 243);
+  --table-footer-bg-color: rgb(37, 37, 37);
+  --table-footer-font-color: rgb(243, 243, 243);
+  
+  --picture-link-bg-color: rgba(51, 51, 51, 0.8);
+  --picture-link-font-color: rgb(168, 194, 250);
+  --external-link-font-color: rgb(105, 152, 252);
+
+  --main-border: 1px solid rgb(2, 48, 71);
+  --main-bg-color: white;
+  --main-font-color: #070707;
+  --not-color: #c50000;
+  
+  --nav-bg-color: rgba(7,7,7, 0.8);
+  --nav-font-color: white; 
+
+  --title-font-color: white;
+  
+  --footer-font-color: white;
+  --footer-bg-color: #070707;
+
+  --header-font-color: white;
+  --header-bg-color: #070707;
+}
+
+body,html {
+  font-family: var(--main-font-family, 'sans-serif');
+  font-variant: var(--main-font-variant, 'small-caps');
+  
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+hr {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+h4 {
+  font-family: var(--header-font-family, 'sans-serif');
+  font-variant: var(--header-font-variant, 'small-caps');
+  font-size: 1.2rem;
+  text-align: center;
+  margin-bottom: 0.2rem;
+  margin-top: 0.4rem;
+} 
+
+h3 {
+  font-family: var(--header-font-family, 'sans-serif');
+  font-variant: var(--header-font-variant, 'small-caps');
+  text-align: center;
+  font-size: 1.8rem;
+  margin-bottom: 0.6rem;
+  margin-top: 1rem;
+} 
+
+h2 {
+  font-family: var(--header-font-family, 'sans-serif');
+  font-variant: var(--header-font-variant, 'small-caps');
+  font-size: 2.2rem;
+  margin-bottom: 0.8rem;
+  margin-top: 1.2rem;
+} 
+
+h1 {
+  font-family: var(--header-font-family, 'sans-serif');
+  font-variant: var(--header-font-variant, 'small-caps');
+  font-size: 3rem;
+  margin-bottom: 0.8rem;
+  margin-top: 1.2rem;
+} 
+
+ol {
+  padding-left: 0.5rem;
+  margin: 1rem;
+}
+
+ul {
+  margin-left: 1rem;
+  padding-left: 0.2rem;
+}

@@ -1,0 +1,37 @@
+{
+  "main": {
+    "shortName": "helvetica",
+    "cssName": "Helvetica",
+    "variant": "normal",
+    "fallback": "sans-serif",
+    "fontsource": false
+  },
+  "nav": {
+    "shortName": "system-ui",
+    "cssName": "system-ui",
+    "variant": "small-caps",
+    "fallback": "sans-serif",
+    "fontsource": false
+  },
+  "pageTitle": {
+    "shortName": "arizonia",
+    "cssName": "Arizonia",
+    "variant": "normal",
+    "fallback": "sans-serif",
+    "fontsource": true
+  },
+  "landingTitle": {
+    "shortName": "raleway",
+    "cssName": "Raleway",
+    "variant": "normal",
+    "fallback": "sans-serif",
+    "fontsource": true
+  },
+  "header": {
+    "shortName": "carrois-gothic",
+    "cssName": "Carrois Gothic",
+    "variant": "small-caps",
+    "fallback": "sans-serif",
+    "fontsource": true
+  } 
+}

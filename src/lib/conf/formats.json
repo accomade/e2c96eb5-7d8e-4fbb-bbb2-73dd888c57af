@@ -1,0 +1,36 @@
+{
+  "de":
+    {
+      "locale": "de-DE",
+      "dateFormat": "dd.MM.yyyy",
+      "monthHeader": "{{month}} / {{year}}",
+      "nothingAvailable": "Nichts frei für {{forDays}} Tage bis {{maxFutureDate}}",
+      "availableFromFor": "Mindestens {{forDays}} Tage ab dem ${{from}} verfügbar",
+
+      "minimumPrice": "Ab {{minPrice}} pro Nacht",
+      "maximumPrice": "Maximal {{maxPrice}} pro Nacht",
+      "additionalPersonPrice": "{{price}} ({{@if(terms)}}{{terms}}{{#else}}auf Anfrage{{/if}})",
+      "minNumberOfNights": "{{num}} Nächte",
+      "seating": "Sitzplätze für {{num}} Erwachsene",
+      "numberOf": "Anzahl {{num}}",
+      "size": "{{size}}&nbsp;m²",
+      "bed": "für {{num}} Person(en)"
+    },
+  "en":
+    {
+      "locale": "en-US",
+      "dateFormat": "dd.MM.yyyy",
+      "monthHeader": "{{month}} / {{year}}",
+      "nothingAvailable": "No availability for {{forDays}} days until {{maxFutureDate}}",
+      "availableFromFor": "Min. {{forDays}} days from {{from}} available",
+
+      "minimumPrice": "From {{minPrice}} per night",
+      "maximumPrice": "To {{maxPrice}} per night",
+      "additionalPersonPrice": "{{price}} ({{@if(terms)}}{{terms}}{{#else}}contact us{{/if}})",
+      "minNumberOfNights": "{{num}} nights",
+      "seating": "Seating for {{num}} people",
+      "numberOf": "{{num}} pieces",
+      "size": "{{size}}&nbsp;m²",
+      "bed": "for {{num}}"
+    }
+}
